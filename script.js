@@ -34,13 +34,13 @@ $(document).ready(
           }      
         });
         
-        $(  ????  ).on('click', 'li', function() {
-            $(this).toggleClass("strike");
-            });      
+//         $(  ????  ).on('click', 'li', function() {
+//             $(this).toggleClass("strike");
+//             });      
             
-        $(  ????  ).on('click', 'li', function() {
-            $(this).fadeOut('slow'); 
-        });
+//         $(  ????  ).on('click', 'li', function() {
+//             $(this).fadeOut('slow'); 
+//         });
         
     });
 
