@@ -17,9 +17,8 @@ function inputTextFocus() {
 window.addEventListener('load', inputTextFocus);
 
 
-$(document).ready(
+$(document).ready(function() {
     
-    function(){
         $('#addButton').on('click', function(){
             var toAdd = $('#toDoText').val();
             $('ul').append('<li>' + toAdd + '<span class="todo-item-done"> &#10004;</span>' + '<span class="todo-item-remove"> &#10006;</span></li>');
