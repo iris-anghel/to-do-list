@@ -15,7 +15,8 @@ body {
     margin: 10% 25%;
     padding: 20px;
     background-color: rgb(206, 211, 219);
-    background-color: rgba(206, 211, 219, 0.9);   
+    background-color: rgba(206, 211, 219, 0.9);
+    min-height: 350px;
 }
 
 #header {
